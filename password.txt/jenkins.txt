@@ -1,5 +1,5 @@
 #sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-#7934f5c45edb4133b606208b9d23e162
+#e0240702c8094f07806ff2daafa32eb9
 
 Create First Admin User
 -----------------------
@@ -17,4 +17,4 @@ master@gmail.com
 
 Instance Configuration
 Jenkins URL:	
-http://3.231.145.190:8080/
+http://52.90.4.115:8080/
