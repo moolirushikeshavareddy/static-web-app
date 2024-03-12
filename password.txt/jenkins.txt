@@ -1,0 +1,20 @@
+#sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+#7934f5c45edb4133b606208b9d23e162
+
+Create First Admin User
+-----------------------
+Username
+master
+Password
+••••••(master)
+Confirm password
+••••••(master)
+Full name
+master
+E-mail address
+master@gmail.com
+
+
+Instance Configuration
+Jenkins URL:	
+http://3.231.145.190:8080/
