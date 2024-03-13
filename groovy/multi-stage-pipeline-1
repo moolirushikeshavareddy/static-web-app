@@ -1,0 +1,15 @@
+pipeline{
+    agent any
+    stages{
+        stage('one'){
+            steps{
+                echo "hello! pipeline-1 is success if you are seeing this message"
+            }
+        }
+        stage('two'){
+            steps{
+                sh 'lscpu'
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+pipeline{
+    agent any
+    stages{
+        stage('github clone'){
+            steps{
+                git branch: 'main', url: 'https://github.com/moolirushikeshavareddy/maven-java.git'
+            }
+        }
+        stage('build'){
+            steps{
+                sh "mvn compile"
+            }
+        }
+        stage('test'){
+            steps{
+                sh 'mvn test'
+            }
+        }
+        stage('artifact'){
+            steps{
+                sh 'mvn clean package'
+            }
+        }
+    }
+}

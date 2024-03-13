@@ -1,5 +1,6 @@
-#sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-#e0240702c8094f07806ff2daafa32eb9
+#cat /var/lib/jenkins/secrets/initialAdminPassword
+#ab351050f78643d9adbb3a0eb75d2a09
+
 
 Create First Admin User
 -----------------------

@@ -1,0 +1,12 @@
+pipeline{
+    agent{
+        label 'slave1'
+    }
+    stages{
+        stage('one'){
+            steps{
+                echo "hello! pipeline-1 is success if you are seeing this message"
+            }
+        }
+    }
+}
