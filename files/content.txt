@@ -1,0 +1,6 @@
+https://github.com/moolirushikeshavareddy/maven-java.git
+mvn clean package
+
+https://www.youtube.com/watch?v=CptBO6wAiEQ&ab_channel=DevOpsCloudEnthusiast
+
+024b4ee2e0d04d95bcf2cf2cb11e47a0
