@@ -3,3 +3,10 @@ mvn clean package
 
 https://www.youtube.com/watch?v=CptBO6wAiEQ&ab_channel=DevOpsCloudEnthusiast
 
+sonarqube 
+token = 6135f0c921a11016e3d2c4cfd60b46c5d90414d9
+0be259b760a2ab8a05113996f8865619c360e23e
+mvn sonar:sonar \
+  -Dsonar.projectKey=netflix \
+  -Dsonar.host.url=http://52.206.218.245:9000 \
+  -Dsonar.login=6135f0c921a11016e3d2c4cfd60b46c5d90414d9
