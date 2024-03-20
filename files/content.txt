@@ -1,12 +1,30 @@
 https://github.com/moolirushikeshavareddy/maven-java.git
 mvn clean package
 
+tomcat video:
 https://www.youtube.com/watch?v=CptBO6wAiEQ&ab_channel=DevOpsCloudEnthusiast
 
 sonarqube 
-token = 6135f0c921a11016e3d2c4cfd60b46c5d90414d9
-0be259b760a2ab8a05113996f8865619c360e23e
+token = 3d9ed858056fa86400c5283e5408daf68596f324
+
 mvn sonar:sonar \
-  -Dsonar.projectKey=netflix \
-  -Dsonar.host.url=http://52.206.218.245:9000 \
-  -Dsonar.login=6135f0c921a11016e3d2c4cfd60b46c5d90414d9
+  -Dsonar.projectKey=Netflix \
+  -Dsonar.host.url=http://100.26.158.222:9000 \
+  -Dsonar.login=3d9ed858056fa86400c5283e5408daf68596f324
+
+  mvn sonar:sonar 
+  -Dsonar.projectKey=Netflix 
+  -Dsonar.host.url=http://100.26.158.222:9000 
+  -Dsonar.login=3d9ed858056fa86400c5283e5408daf68596f324
+
+
+https://github.com/CleverProgrammers
+
+https://github.com/CleverProgrammers/pwj-netflix-clone
+
+
+https://www.devopshint.com/sonarqube-integration-with-jenkins-pipeline/
+
+
+.war
+https://github.com/pritisuryawanshi/maven_sonar

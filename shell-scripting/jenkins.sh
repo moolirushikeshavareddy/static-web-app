@@ -14,7 +14,7 @@ sudo systemctl start jenkins
 sudo systemctl status jenkins
 
 
-
+#!/bin/bash
 #amazon-linux-2 machine
 #STEP-1: INSTALLING GIT JAVA-1.8.0 MAVEN 
 yum install git java-1.8.0-openjdk maven -y
