@@ -28,3 +28,4 @@ https://www.devopshint.com/sonarqube-integration-with-jenkins-pipeline/
 
 .war
 https://github.com/pritisuryawanshi/maven_sonar
+https://github.com/devopsbyraham/jenkins-java-project.git
