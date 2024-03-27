@@ -1,0 +1,17 @@
+- hosts: all
+  tasks:
+    - name: install docker
+      yum: name=docker state=present
+      tags: a
+
+    - name: start docker
+      service: name=docker state=started
+      tags: b
+
+    - name: install git
+      yum: name=git state=present
+      tags: c
+
+    - name: install maven
+      yum: name=maven state=present
+      tags: d

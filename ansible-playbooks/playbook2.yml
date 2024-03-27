@@ -1,0 +1,6 @@
+- hosts: all
+  tasks:
+    - name: stopping httpd
+      service: name=httpd state=stopped
+    - name: uninstall httpd
+      yum : name=httpd state=absent
